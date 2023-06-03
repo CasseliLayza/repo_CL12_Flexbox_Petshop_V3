@@ -1,27 +1,29 @@
 *{
     margin: 0;
-    /* padding: 0; */
+    padding: 0;
     box-sizing: border-box;
 }
 
 .top{
     background-color: black;
     color: white;
-    position: relative;
+    /* position: relative; */
     font-size: 10px;
     /* width: 1024px; */
     height: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 }
 
-
 .grandesOfertas{
-    position: absolute;
+    /* position: absolute; */
     width: 138px;
     height: 12px;
-    left: calc(50% - 138px/2 - 353px);
-    top: 4px;
+    /* left: calc(50% - 138px/2 - 353px);
+    top: 4px; */
 
     font-family: 'Roboto';
     font-style: normal;
@@ -35,10 +37,11 @@
 .topMEnu{
     width: 120px;
     height: 20px;
-    position: absolute;
+    padding-top: 4px;
+    /* position: absolute; */
 
-    left: calc(50% - 20px/2 + 404px);
-    top: 4px;
+    /* left: calc(50% - 20px/2 + 404px);
+    top: 4px; */
 }
 
 .toplinks {
@@ -52,7 +55,6 @@
     padding-left: 5px;
 
 }
-
 
 
 .encabezado {
@@ -248,7 +250,7 @@
     color: #706d6d;
     padding:0%;
     text-align: center;
-    margin: 30px 0 60px 0 ;
+    margin: 30px 30% 60px;
     display: flex;
     justify-content: space-around;
 
@@ -351,6 +353,7 @@
     margin: 100px 0 50px 0;
 
 
+
 }
 
 .contactanos {
@@ -393,10 +396,12 @@
 
 .resetEnviar{
     height: 34px;
-    width: 227px;
+    width: 297px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 80px;
+    display: flex;
+    justify-content: space-evenly;
 
     font-family: 'Roboto';
     font-style: normal;
@@ -408,12 +413,12 @@
 }
 
 .resetEnviar .reset {
-    float: left;
+    /* float: left; */
     width: 110px;
     height: 34px;
     background: #8A8787;
     border-radius: 15px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 
 }
 
@@ -427,12 +432,12 @@
 }
 
 .resetEnviar .enviar {
-    float: right;
+    /* float: right; */
     width: 110px;
     height: 34px;
     background: #F0A83E;
     border-radius: 15px;
-    margin: 0 auto;
+    /* margin: 0 auto; */
 }
 
 .resetEnviar .enviar article{
@@ -451,23 +456,30 @@
     /* width: 1024px; */
     height: 60px;
     background: #F0A83E;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .suscribete .suscribeteleft{
-    width: 348px;
+    width: 360px;
     height: 23px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
 
 
 }
 
 .suscribete .suscribeteleft .mailicon{
-    Width: 34.41px;
-    Height:20.28px;
-    margin: 0 auto;
-    float: left;
-    padding: 10.5px 0;
+    /* Width: 34.41px;
+    Height:20.28px; */
+    /*margin: 0 auto; */
+    /* float: left; */
+    /* padding: 10.5px 0; */
     padding-left: 20px;
 
 
@@ -481,24 +493,30 @@
         font-weight: 700;
         font-size: 20px;
         line-height: 23px;
-        text-align: center;
+        /* text-align: center; */
         color: #FFFFFF;
-        float: right;
-        margin: 0 auto;
-        padding: 18.5px 0;
-        float: right;
+        /* float: right; */
+        /* margin: 0 auto; */
+        /* padding: 18.5px 0; */
+
 }
 
 /* derecha */
+.suscribeteRightMain{
+width: 40%;
+display: flex;
+justify-content: space-evenly;
+
+}
 
 .suscribeteRight {
-    position: absolute;
+    /* position: absolute; */
     width: 271px;
     height: 40px;
     background: #FFFFFF;
     border-radius: 15px;
-    left: 61%;
-    top: 10px;
+    /* left: 61%;
+    top: 10px; */
 }
 
 
@@ -518,13 +536,13 @@
 }
 
 .suscribirmeRight2 {
-    position: absolute;
+    /* position: absolute; */
     width: 70px;
     height: 34px;
     background: #3C2313;
     border-radius: 15px;
-    left: 88%;
-    top: 13px;
+    /* left: 88%;
+    top: 13px; */
 }
 
 .suscribirmeRight2 article{
@@ -549,6 +567,7 @@
     height: 284px;
     position: relative;
     background: #3C2313;
+    display: flex;
 }
 
 /* -----------location-------------------- */
