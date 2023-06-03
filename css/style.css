@@ -11,8 +11,8 @@
     font-size: 10px;
     /* width: 1024px; */
     height: 20px;
-    
-    
+
+
 }
 
 
@@ -22,13 +22,13 @@
     height: 12px;
     left: calc(50% - 138px/2 - 353px);
     top: 4px;
-    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 10px;
     line-height: 12px;
-   
+
     color: #F3F3F3;
 }
 
@@ -50,7 +50,7 @@
     text-decoration: none;
     color: #F3F3F3;
     padding-left: 5px;
-    
+
 }
 
 
@@ -78,10 +78,10 @@
     /* position: absolute;
     left: 46px;
     bottom: 20px; */
-    
 
 
-    
+
+
 }
 
 .fuenteLogo11 {
@@ -108,7 +108,7 @@
     font-weight: 400;
     font-size: 13px;
     line-height: 15px;
-    
+
     color: #FFFFFF;
 
 
@@ -116,7 +116,7 @@
 
 .encabezadoMenu li{
     /* display: inline; */
-    
+
     font-style: normal;
     font-weight: 400;
     font-size: 13px;
@@ -129,7 +129,7 @@
     text-decoration: none;
     /* padding: 10px;          */
     color: #FFFFFF;
-   
+
 }
 
 /* Banner */
@@ -146,19 +146,19 @@
 }
 
 .banner .banerEsUnPlacer {
-  
+
     position: absolute;
     width: 365px;
     height: 54px;
     left: 648px;
     top: 156px;
-    
+
     background: #FFFFFF;
     border-radius: 5px;
 }
 
 .banner .banerEsUnPlacer article{
-   
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -178,15 +178,15 @@
     height: 19px;
     left: 740px;
     top: 222px;
-    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    
+
     text-align: center;
-    
+
     color: #3C2313;
 }
 
@@ -203,7 +203,7 @@
 }
 
 .bannerComederos article{
-   
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -239,7 +239,7 @@
 /* -------------------- */
 
 .menumain {
-  
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
@@ -249,14 +249,16 @@
     padding:0%;
     text-align: center;
     margin: 30px 0 60px 0 ;
+    display: flex;
+    justify-content: space-around;
 
-    
+
 }
 
 .menumain li {
-    display: inline;
+    /* display: inline; */
    padding: 0 5px;
-   
+
 }
 
 .menumain li a {
@@ -267,7 +269,9 @@
 
 .imagenesProductosDest {
     height: 268.86px;
-    position: relative;
+    /* position: relative; */
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
@@ -277,12 +281,12 @@
     background-size: 100%; */
     width: 265px;
     height: 268.86px;
-    text-align: center;
+    /* text-align: center;
     position: absolute;
     left: 50%;
-    transform: translate(-414.5px);
-    /* position: relative; */
-   
+    transform: translate(-414.5px); */
+    position: relative;
+
 }
 
 
@@ -291,10 +295,11 @@
     width: 265px;
     height: 268.86px;
     text-align: center;
-    position: absolute;
+    /* position: absolute;
     top: 0%;
     left: 50%;
-    transform: translate(-132.5px);
+    transform: translate(-132.5px); */
+    position: relative;
 }
 
 
@@ -303,18 +308,19 @@
     width: 265px;
     height: 268.86px;
     text-align: center;
-    position: absolute;
+    /* position: absolute;
     left: 50%;
     top: 0%;
-    transform: translate(149.5px);
+    transform: translate(149.5px); */
+    position: relative;
 
-    
+
 }
 
 
 .imgNombre {
     position: absolute;
-    bottom: 3%;
+    bottom: 10%;
     left: 25%;
     font-family: 'Roboto';
     font-style: normal;
@@ -323,7 +329,7 @@
     line-height: 18px;
 
     color: #3C2313;
-    
+
 }
 
 .imgprice {
@@ -343,7 +349,7 @@
 
 .seccionContactanos {
     margin: 100px 0 50px 0;
- 
+
 
 }
 
@@ -360,20 +366,20 @@
 
 
 .seccionContactanos article {
-   
+
     width: 340px;
     height: 40px;
-    
+
     background: #3C2313;
     border-radius: 15px;
-    
+
      margin: 14px auto;              /*sepacion entre cajas contacto */
 
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 9px;
- 
+
     color: #FFFFFF;
 
 }
@@ -391,14 +397,14 @@
     text-align: center;
     margin: 0 auto;
     margin-bottom: 80px;
-    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
     color: #FFFFFF;
-   
+
 }
 
 .resetEnviar .reset {
@@ -408,16 +414,16 @@
     background: #8A8787;
     border-radius: 15px;
     margin: 0 auto;
-    
+
 }
 
-.resetEnviar .reset article{ 
+.resetEnviar .reset article{
     width: 63px;
     height: 19px;
     text-align: center;
     margin: 0 auto;
     padding: 7.5px;
-    
+
 }
 
 .resetEnviar .enviar {
@@ -429,14 +435,14 @@
     margin: 0 auto;
 }
 
-.resetEnviar .enviar article{ 
+.resetEnviar .enviar article{
     width: 63px;
     height: 19px;
     text-align: center;
     margin: 0 auto;
     padding: 7.5px;
-  
-    
+
+
 }
 
 /* suscripcion */
@@ -451,8 +457,8 @@
 .suscribete .suscribeteleft{
     width: 348px;
     height: 23px;
-    
-  
+
+
 
 }
 
@@ -538,7 +544,7 @@
 /* footer */
 
 .footer {
-   
+
     /* width: 1024px; */
     height: 284px;
     position: relative;
@@ -552,7 +558,7 @@
     height: 66px;
     left: calc(50% - 66px/2 - 409px);
     bottom: 197px;
-    
+
     background: #786960;
     border-radius: 50px;
 }
@@ -563,15 +569,15 @@
     height: 23px;
     left: calc(50% - 88px/2 - 307px);
     bottom: 240px;
-    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
-    
+
     color: #FFFFFF;
-    
+
 }
 
 .descripLocation {
@@ -580,7 +586,7 @@
     height: 12px;
     left: calc(50% - 73px/2 - 314.5px);
     bottom: 228px;
-    
+
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
@@ -631,13 +637,13 @@
     font-weight: 700;
     font-size: 10px;
     line-height: 12px;
-    
+
     color: #8A8787;
 }
 
 /* ----------------imail--------------- */
 .imgEmail {
-    
+
     position: absolute;
     width: 66px;
     height: 66px;
@@ -677,7 +683,7 @@
     font-weight: 700;
     font-size: 10px;
     line-height: 12px;
-   
+
     color: #8A8787;
 }
 
@@ -707,13 +713,13 @@
 /* derechos reservados */
 
 .derecheosReservados {
- 
+
     /* width: 1024px; */
     height: 20px;
     bottom: 0px;
     background: #222222;
     position: relative;
-   
+
 
 }
 
